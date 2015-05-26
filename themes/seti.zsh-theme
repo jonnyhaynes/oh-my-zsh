@@ -1,4 +1,4 @@
-# SETI - created by Jonny Haynes.
+# SETI - created by Jonny Haynes: https://github.com/jonnyhaynes.
 # Based on the Atom syntax theme Seti by jesseweed: https://github.com/jesseweed/seti-syntax
 #
 # Colors are at the top so you can mess with those separately if you like.
