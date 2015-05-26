@@ -3,13 +3,11 @@
 #
 # Colors are at the top so you can mess with those separately if you like.
 
-SETI_BRACKET_COLOR="%{$fg[white]%}"
-SETI_TIME_COLOR="%{$fg[rgb(230,205,105)]%}"
-SETI_RVM_COLOR="%{$fg[rgb(160,116,196)]%}"
-SETI_DIR_COLOR="%{$fg[rgb(85,181,219)]%}"
-SETI_GIT_BRANCH_COLOR="%{$fg[rgb(230,205,105)]%}"
-SETI_GIT_CLEAN_COLOR="%{$fg[rgb(159,202,86)]%}"
-SETI_GIT_DIRTY_COLOR="%{$fg[rgb(205,63,69)]%}"
+SETI_BRACKET_COLOR="$FG[231]"
+SETI_DIR_COLOR="$FG[074]"
+SETI_GIT_BRANCH_COLOR="$FG[185]"
+SETI_GIT_CLEAN_COLOR="$FG[149]"
+SETI_GIT_DIRTY_COLOR="$FG[167]"
 
 # These Git variables are used by the oh-my-zsh git_prompt_info helper:
 ZSH_THEME_GIT_PROMPT_PREFIX="$SETI_BRACKET_COLOR:$SETI_GIT_BRANCH_COLOR"
@@ -22,4 +20,4 @@ SETI_DIR_="$SETI_DIR_COLOR%~\$(git_prompt_info) "
 SETI_PROMPT="$SETI_BRACKET_COLOR➡ "
 
 # Put it all together!
-PROMPT="$SETI_TIME_$SETI_RVM_$SETI_DIR_$SETI_PROMPT%{$reset_color%}"
+PROMPT="$SETI_DIR_$SETI_PROMPT%{$reset_color%}"
